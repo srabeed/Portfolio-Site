@@ -1,0 +1,140 @@
+#header {
+	font-family: Raleway;
+	text-align: left;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 3px solid red;
+	width: 20%;
+	padding-bottom: 15px;
+	font-style: normal;
+}
+
+
+body {
+	background: url(https://images.unsplash.com/photo-1496513094312-0ff066dce493?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d9fda724a0d9d0d381d985284af870b&auto=format&fit=crop&w=1050&q=80);
+	background-size: cover;
+}
+div{
+
+	/*border: 20px solid #728988;*/
+	border: 20px solid rgba(78, 122, 119, 0.5);
+	max-width: 400px;
+	width: 80%;
+	margin: auto;
+	margin-top: 100px;
+
+}
+
+p {
+	text-align: center;
+	font-size: 25px;
+	font-family: Raleway;
+	text-transform: uppercase;
+	font-weight: 500i;
+	font-style: italic;
+}
+
+div a {
+	color: black;
+	text-decoration: none;
+
+}
+
+div a:hover {
+	color: red;
+}
+
+#socials {
+	border: 0px solid #fff;
+	margin:0 auto;
+}
+
+#socials a:hover {
+	color: black;
+}
+
+ul {
+	display: flex;
+	position: relative;
+	top: 3em;
+	right: 26%;
+/*	left: 50%;
+	transform: translate(-50%, -50%);*/
+}
+
+ul li {
+	list-style: none;
+}
+
+ul li a {
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	color: black;
+	text-align: center;
+	line-height: 103px;
+	font-size: 35px;
+	margin: 0 0 20px 20px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	border: 3px solid #fff;
+	z-index: 1;
+}
+
+ul li a:visited {
+	color: black;
+}
+
+ul li a .fa {
+	position: relative;
+	color: #262626;
+	transition: .5s;
+
+}
+
+
+ul li a:hover .fa {
+	color: #fff;
+	transform: rotateY(360deg);
+}
+
+ul li a:before {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f00;
+	transition: .5s;
+	z-index: 2;
+}
+
+ul li a:hover:before {
+	top: 0;
+}
+
+ul li:nth-child(1) a:before {
+	background: #3b5998;
+}
+ul li:nth-child(2) a:before {
+	background: #1da1f2;
+}
+ul li:nth-child(3) a:before {
+	background: #007bb5;
+}
+ul li:nth-child(4) a:before {
+	background: black;
+}
+
+
+
+
+
+
+
+

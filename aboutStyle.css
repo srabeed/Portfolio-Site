@@ -1,0 +1,63 @@
+#header {
+	font-family: Raleway;
+	text-align: left;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 3px solid red;
+	width: 30%;
+	padding-bottom: 15px;
+	font-style: normal;
+}
+
+body {
+	background: url(https://images.unsplash.com/photo-1496513094312-0ff066dce493?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d9fda724a0d9d0d381d985284af870b&auto=format&fit=crop&w=1050&q=80);
+	background-size: cover;
+}
+
+div{
+
+	border: 20px solid rgba(114, 137, 136, 0.7);
+	max-width: 700px;
+	width: 80%;
+	margin: auto;
+	margin-top: 12%;
+	margin-bottom: 12%;
+}
+
+p {
+	text-align: left;
+	font-size: 25px;
+	font-family: Raleway;
+	font-weight: 400;
+	font-style: italic;
+}
+
+div p {
+	padding: 20px;
+}
+
+
+#footer {
+	font-family: Raleway;
+	text-align: right;
+	margin-left: 68.3%;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 3px solid red;
+	width: 30%;
+	padding-bottom: 15px;
+
+}
+
+#footerLink {
+	color: black;
+	text-decoration: none;
+}
+
+#footerLink:visited {
+	color: black;
+}
